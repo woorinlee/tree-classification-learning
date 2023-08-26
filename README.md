@@ -8,7 +8,7 @@
 
 |측백나무|소나무|
 |:---:|:---:|
-|<img width="70%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/cbe1e153-9ee3-4440-927e-6d7a0b8b3708"/>|<img width="70%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/a131e15a-e8b7-4ae3-aaa5-32b7d8471696"/>|
+|<img width="100%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/81249689-b1f2-4fe4-a989-c6629f86ab66"/>|<img width="100%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/23c4b874-3cc1-41da-bf87-4c12c0d3d99b"/>|
 
 영상 학습 및 분류에 이용할 자료로 “측백나무”와 “소나무”를 선택하였다.
 
@@ -210,14 +210,17 @@ loss 변화율과 accuracy 변화율을 출력하고 손실율, 정확도를 출
 
 ## 학습 결과
 
-<img width="100%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/e1592f5a-6af0-4706-967f-de6410877c34"/>
+|loss 변화율|accuracy 변화율|
+|:---:|:---:|
+|<img width="100%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/3807cbcf-40c1-4a63-a07c-79285a93228e"/>|<img width="100%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/0baf3657-a7db-4549-880e-dd9ccc1acf96"/>|
 
-<img width="100%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/e365c9cb-fabe-4f99-b524-5bc2409a0a50"/>
+|출력 내용|
+|:---:|
+|<img width="100%" src="https://github.com/woorinlee/tree-classification-learning/assets/83910204/fc7b1696-5a7c-4c2d-b89e-6cf1faef02c0"/>|
 
-||정확도|
-|:---|:---:|
-|훈련 데이터|96.37%|
-|테스트 데이터|66.67%|
+|훈련 데이터 정확도|테스트 데이터 정확도|
+|---:|---:|
+|96.37%|66.67%|
 
 ## 결론
 
@@ -226,4 +229,4 @@ loss 변화율과 accuracy 변화율을 출력하고 손실율, 정확도를 출
 |측백나무|58개|26개|
 |소나무|225개|34개|
 
-학습을 위한 이미지 데이터 개수가 위의 표와 같이 너무 적어서 제대로 된 결과가 나올수 없었다고 생각한다.
+학습을 위한 이미지 데이터 개수가 위의 표와 같이 너무 적어서 제대로 된 결과가 나올수 없었다고 생각한다. 추후 대량의 이미지 데이터 표본을 통해 다시 학습 및 분류하여 결과를 비교해본다.
